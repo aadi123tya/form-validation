@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>USER VALIDATION</title>
+</head>
+<link rel="stylesheet" href="./style.css">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+<body class="bg-emerald-50">
+    <div id="Big-box">
+        <div id="heading">
+            <h1 style="font-size: 3rem; text-align: center;">Form Validation In JavaScript</h1>
+        </div>
+        <div id="SubHeading">
+            <h2 id="signin">Sign Up</h2>
+        </div>
+        <div class="main">
+
+
+            <div class="section">
+                <p>Name</p>
+                <input type="text" id="name">
+                <p id="p-1" class="warning-para" style="margin-top: 0; color: rgb(248, 95, 95);"></p>
+            </div>
+
+
+
+            <div class="section">
+                <p>Email</p>
+                <input type="email" id="email">
+                <p id="p-2" class="warning-para" style="margin-top: 0; color: rgb(248, 95, 95);"></p>
+            </div>
+
+
+            <div class="section">
+                <p>Username</p>
+                <input type="text" id="username">
+                <p id="p-3" class="warning-para" style="margin-top: 0; color: rgb(248, 95, 95);"></p>
+            </div>
+
+
+
+            <div class="section">
+                <p>Password</p>
+                <div id="password-box">
+                    <input type="password" id="password">
+                    <div id="pass_display"> <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px"
+                            fill="(0,0,0)" id="checkbox" class="bi bi-eye" viewBox="0 0 16 16">
+                            <path
+                                d="M16 8s-3-5.5-8-5.5S0 8 0 8s3 5.5 8 5.5S16 8 16 8zM1.173 8a13.133 13.133 0 0 1 1.66-2.043C4.12 4.668 5.88 3.5 8 3.5c2.12 0 3.879 1.168 5.168 2.457A13.133 13.133 0 0 1 14.828 8c-.058.087-.122.183-.195.288-.335.48-.83 1.12-1.465 1.755C11.879 11.332 10.119 12.5 8 12.5c-2.12 0-3.879-1.168-5.168-2.457A13.134 13.134 0 0 1 1.172 8z" />
+                            <path
+                                d="M8 5.5a2.5 2.5 0 1 0 0 5 2.5 2.5 0 0 0 0-5zM4.5 8a3.5 3.5 0 1 1 7 0 3.5 3.5 0 0 1-7 0z" />
+                        </svg>
+                    
+                        
+                    </div>
+                </div>
+                <button id="genPassword" >generate password</button>
+                <p id="p-4" class="warning-para" style="margin-top: 0; color: rgb(248, 95, 95);"></p>
+            </div>
+
+
+
+            <div class="section">
+                <p>Confirm Password</p>
+                <div class="inline-flex"> <input type="password" id="ConfirmPassword"> <svg
+                        xmlns="http://www.w3.org/2000/svg" style="margin-left: 5px;" width="25px" height="25px"
+                        fill="currentColor" class="bi bi-arrow-up-left-square" viewBox="0 0 16 16" id="same_asButton">
+                        <path fill-rule="evenodd"
+                            d="M15 2a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V2zM0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2zm10.096 8.803a.5.5 0 1 0 .707-.707L6.707 6h2.768a.5.5 0 1 0 0-1H5.5a.5.5 0 0 0-.5.5v3.975a.5.5 0 0 0 1 0V6.707l4.096 4.096z" />
+                    </svg> </div>
+                <p id="p-5" class="warning-para" style="margin-top: 0; color: rgb(248, 95, 95);"></p>
+            </div>
+            <div class="section">
+                <p>Mobile Number</p>
+                <input type="tel" id="Number">
+                <p id="p-6" class="warning-para" style="margin-top: 0; color: rgb(248, 95, 95);"></p>
+            </div>
+            <div class="section" id="last-section">
+
+                <div id="button-shift"> <button type="button" id="submit">Submit</button></div>
+                <button type="button" id="reset">Reset</button>
+                <div id="lastpara">
+                    <p id="last-para">Already have an account? <a href="./login.html" id="login"  aria-disabled="true">Login</a></p>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+</body>
+<script src="./index.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+
+</html>

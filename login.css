@@ -1,0 +1,76 @@
+#last-section
+{
+    display: flex;
+    justify-content:center;
+
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+   
+    
+
+}
+
+#Big-box
+{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr ;
+    width: 40rem;
+    height: 30rem;
+    border: 2px solid black;
+    margin-top: 10%;
+    background-color: aliceblue;
+    border-radius: 20px;
+}
+
+button
+{
+    width: 5rem;
+    height: 3rem;
+    border-style: none;
+    
+}
+#submit:hover{background-color: rgb(54, 85, 27);transition-duration: 0.1s;}
+#reset:hover{background-color: #37393a;transition-duration: 0.1s;}
+
+ #submit
+{
+    background-color: #159328;
+    border-color: rgb(170, 170, 170);
+    border-radius: 8px;
+    color: white;
+    font-size: 1.2rem;
+    border-style: none;
+}
+
+#reset
+{
+    background-color: #5f6367;
+    /* border-color: #666869; */
+    border-radius: 8px;
+    color: white;
+    font-size: 1.2rem;
+    border-style: none;
+    
+}
+
+
+body{
+    display: flex;
+    justify-content: center;
+    background-color: antiquewhite;
+}
+
+#email
+{
+    margin-top: 0px;
+    margin-left: 1rem;
+}
+#username
+{
+    margin-left: 1rem;
+}
+#reset
+{
+    margin-left: 20px;
+}
